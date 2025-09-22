@@ -1,4 +1,5 @@
 **Develop an Azure AI agent with the Semantic Kernel SDK**
+
 In this exercise, you'll use Azure AI Agent Service and Semantic Kernel to create an AI agent that processes expense claims.
 
 Tip: The code used in this exercise is based on the for Semantic Kernel SDK for Python. You can develop similar solutions using the SDKs for Microsoft .NET and Java. Refer to Supported Semantic Kernel languages for details.
@@ -10,7 +11,9 @@ Note: Some of the technologies used in this exercise are in preview or in active
 Deploy a model in an Azure AI Foundry project
 Let's start by deploying a model in an Azure AI Foundry project.
 
-In a web browser, open the Azure AI Foundry portal at https://ai.azure.com and sign in using the username User1-54862101@LODSPRODMCA.onmicrosoft.com and the password qgbE7dG6. Close any tips or quick start panes that are opened the first time you sign in, and if necessary use the Azure AI Foundry logo at the top left to navigate to the home page, which looks similar to the following image (close the Help pane if it's open):
+In a web browser, open the Azure AI Foundry portal at https://ai.azure.com and sign in using the username 
+
+Close any tips or quick start panes that are opened the first time you sign in, and if necessary use the Azure AI Foundry logo at the top left to navigate to the home page, which looks similar to the following image (close the Help pane if it's open):
 
 Screenshot of Azure AI Foundry portal.
 
@@ -42,7 +45,7 @@ Create an agent client app
 Now you're ready to create a client app that defines an agent and a custom function. Some code has been provided for you in a GitHub repository.
 
 Prepare the environment
-Open a new browser tab (keeping the Azure AI Foundry portal open in the existing tab). Then in the new tab, browse to the Azure portal at https://portal.azure.com; signing in with the username User1-54862101@LODSPRODMCA.onmicrosoft.com and the password qgbE7dG6 if prompted.
+Open a new browser tab (keeping the Azure AI Foundry portal open in the existing tab). Then in the new tab, browse to the Azure portal at https://portal.azure.com; 
 
 Close any welcome notifications to see the Azure portal home page.
 
@@ -230,7 +233,7 @@ You must sign into Azure - even though the cloud shell session is already authen
 
 Note: In most scenarios, just using az login will be sufficient. However, if you have subscriptions in multiple tenants, you may need to specify the tenant by using the --tenant parameter. See Sign into Azure interactively using the Azure CLI for details.
 
-When prompted, follow the instructions to open the sign-in page in a new tab and enter the authentication code provided and the username User1-54862101@LODSPRODMCA.onmicrosoft.com and the password qgbE7dG6. Then complete the sign in process in the command line, selecting the subscription containing your Azure AI Foundry hub if prompted.
+When prompted, follow the instructions to open the sign-in page in a new tab and enter the authentication code provided and the username. Then complete the sign in process in the command line, selecting the subscription containing your Azure AI Foundry hub if prompted.
 
 After you have signed in, enter the following command to run the application:
 
